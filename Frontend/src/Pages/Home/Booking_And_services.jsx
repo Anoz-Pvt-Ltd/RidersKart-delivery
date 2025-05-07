@@ -129,7 +129,7 @@ const Booking_And_services = () => {
         </h1>
         <div className="w-[90vw] flex flex-wrap justify-evenly tablet:w-fit overflow-hidden items-center   ">
           <a
-            href="https://darkslategray-oyster-443918.hostingersite.com"
+            href="https://ecom.riderskart.in/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col justify-center items-center m-2"
@@ -149,12 +149,12 @@ const Booking_And_services = () => {
             <Vehicle key={index} field={field} />
           ))}
         </div>
-        <button
+        {/* <button
           onClick={openPopup}
           className="px-4 py-2 mt-2 text-xl rounded-2xl drop-shadow-xl hover:scale-105 hover:drop-shadow-2xl transition duration-150 ease-in-out bg-[#DF3F33] text-white"
         >
           Tap to book parcel
-        </button>
+        </button> */}
 
         {/* Popup Modal */}
         {isOpen && (
@@ -285,7 +285,7 @@ const Booking_And_services = () => {
                 <div className="flex w-full h-[100%] justify-center items-start py-16 gap-10 text-black ">
                   {/* All vehicles */}
                   <a
-                    href="https://darkslategray-oyster-443918.hostingersite.com"
+                    href="https://ecom.riderskart.in/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex flex-col justify-center items-center m-2"
@@ -306,7 +306,7 @@ const Booking_And_services = () => {
                   ))}
 
                   {/* Estimation Btn */}
-                  <div>
+                  {/* <div>
                     <Link
                       to={`/booking`}
                       className=" h-32 w-32 p-2 my-3  flex flex-col justify-between text-white rounded-2xl drop-shadow-lg hover:scale-110 hover:drop-shadow-2xl transition duration-200 ease-in-out bg-[#DF3F33]"
@@ -316,7 +316,7 @@ const Booking_And_services = () => {
                         <CornerDownRight />
                       </span>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
